@@ -173,7 +173,7 @@
 						// }
 						// &:before {left: -100%}
 						// &:after {right: -100%}
-						width: max-content;
+						width: unset;
 						li.nav-item {
 							border-bottom: 1px solid hsla(291, 64%, 42%, 0.25);
 							&:nth-last-child(1) {

@@ -12193,9 +12193,7 @@ figure.woocommerce-product-gallery__wrapper {
         padding: 8px 16px;
         padding: 0.5rem 1rem; }
       .wrapper-navbar nav.navbar ul.navbar-nav#main-menu li ul.dropdown-menu {
-        width: -webkit-max-content;
-        width: -moz-max-content;
-        width: max-content; }
+        width: unset; }
         .wrapper-navbar nav.navbar ul.navbar-nav#main-menu li ul.dropdown-menu li.nav-item {
           border-bottom: 1px solid rgba(155, 39, 176, 0.25); }
           .wrapper-navbar nav.navbar ul.navbar-nav#main-menu li ul.dropdown-menu li.nav-item:nth-last-child(1) {
