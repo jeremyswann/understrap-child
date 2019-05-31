@@ -57,6 +57,9 @@
 								}
 								a.dropdown-item {
 									color: white !important;
+									&:hover {
+										background: unset;
+									}
 								}
 							}
 						}

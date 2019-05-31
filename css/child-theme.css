@@ -12124,6 +12124,8 @@ figure.woocommerce-product-gallery__wrapper {
               background-color: #9c27b0; }
             .wrapper-navbar nav .container .collapse.navbar-collapse ul.navbar-nav li.dropdown.show ul.dropdown-menu.show li.nav-item a.dropdown-item {
               color: white !important; }
+              .wrapper-navbar nav .container .collapse.navbar-collapse ul.navbar-nav li.dropdown.show ul.dropdown-menu.show li.nav-item a.dropdown-item:hover {
+                background: unset; }
         .wrapper-navbar nav .container .collapse.navbar-collapse ul.navbar-nav a.nav-link {
           text-transform: uppercase;
           color: white; }
