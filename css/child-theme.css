@@ -12161,8 +12161,8 @@ figure.woocommerce-product-gallery__wrapper {
     .wrapper-navbar nav.navbar .behind-nav {
       display: none; }
     .wrapper-navbar nav.navbar button.navbar-toggler {
-      -webkit-transform: translate(0, -200%);
-              transform: translate(0, -200%);
+      -webkit-transform: translate(0, -100%);
+              transform: translate(0, -100%);
       position: relative;
       top: 0;
       right: 15px;
@@ -12173,16 +12173,15 @@ figure.woocommerce-product-gallery__wrapper {
       line-height: 0;
       border: none;
       color: #9c27b0; }
-      .wrapper-navbar nav.navbar button.navbar-toggler[aria-expanded='false'] i.fa.fa-times {
-        display: none; }
-      .wrapper-navbar nav.navbar button.navbar-toggler[aria-expanded='false'] i.fa.fa-bars {
-        display: block; }
-      .wrapper-navbar nav.navbar button.navbar-toggler[aria-expanded='true'] i.fa.fa-bars {
-        display: none; }
-      .wrapper-navbar nav.navbar button.navbar-toggler[aria-expanded='true'] i.fa.fa-times {
-        display: block; }
-      .wrapper-navbar nav.navbar button.navbar-toggler i.fa.fa-times {
-        display: none; }
+      .wrapper-navbar nav.navbar button.navbar-toggler span.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgb(156, 39, 176)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: '';
+        background: no-repeat center center;
+        background-size: 100% 100%; }
     .wrapper-navbar nav.navbar ul.navbar-nav#main-menu:before {
       display: none; }
     .wrapper-navbar nav.navbar ul.navbar-nav#main-menu li {
