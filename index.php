@@ -10,18 +10,17 @@
  *
  * @package understrap
  */
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
+
 get_header();
-$container = get_theme_mod( 'understrap_container_type' );
+
+$container   = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php if ( is_front_page() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 
-<div class="wrapper" id="index-wrapper">
+<div class="wrapper" id="wrapper-index">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
@@ -39,6 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<?php while ( have_posts() ) : the_post(); ?>
 
 						<?php
+
 						/*
 						 * Include the Post-Format-specific template for the content.
 						 * If you want to override this in a child theme, then include a file
@@ -60,13 +60,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- The pagination component -->
 			<?php understrap_pagination(); ?>
 
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
+		</div><!-- #primary -->
 
-		</div><!-- .row -->
+		<!-- Do the right sidebar check -->
+		<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
+		
 
-	</div><!-- #content -->
+	</div><!-- .row -->
 
-</div><!-- #index-wrapper -->
+</div><!-- Container end -->
+
+</div><!-- Wrapper end -->
 
 <?php get_footer(); ?>
