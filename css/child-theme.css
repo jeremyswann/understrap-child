@@ -12156,6 +12156,7 @@ figure.woocommerce-product-gallery__wrapper {
 
 @media (max-width: 992px) {
   .wrapper-navbar nav.navbar {
+    padding: 0;
     overflow: hidden; }
     .wrapper-navbar nav.navbar .behind-nav {
       display: none; }
