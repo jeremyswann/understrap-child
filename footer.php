@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="site-info text-white">
 
 							&copy; 2018 Swanborough Funerals. All Rights Reserved.
-						
+
 					</div><!-- .site-info -->
 
 				</footer><!-- #colophon -->
